@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 4</title>
+    <link rel="stylesheet" href="tarefa4.style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="material-icons">
+                perm_contact_calendar
+                </span>
+            <h1>Lista de Contato</h1>
+        </header>
+        <form id="form-contato">
+            <span class="material-icons">person</span>
+            <input id="nome-contato" type="text" placeholder="Seu nome" required>
+            <span class="material-icons" >call</span>
+            <input id="telefone-contato" type="tel" placeholder="xx xxxxx-xxxx" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>---</td>
+                <td>---</td>
+            </tbody>
+        </table>
+    </div>
+    <script src="tarefa4.js"></script>
+</body>
+</html>
